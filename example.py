@@ -15,5 +15,6 @@ small_distances = np.array([[np.inf, 2, 2, 5, 7, 4],
                             [7, 2, 3, 2, np.inf, 1],
                             [4, 3, 6, 8, 1, np.inf]])
 
-small_ant_colony = AntColony(small_distances, 10, 5, 5, 0.95, alpha=1, beta=1)
+small_ant_colony = AntColony(
+    small_distances, 5, 2, 10, 0.95, alpha=1, beta=1, graph=False)
 small_ant_colony.run()
