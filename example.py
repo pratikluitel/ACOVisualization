@@ -1,4 +1,4 @@
-# Made by - Pratik Luitel & team
+# Made by - Pratik Luitel , Anish Dulal, Stuti Kafles
 # available at - https://github.com/pratikluitel/ACOVisualization
 # make a venv and install dependencies in requirements.txt before you proceed
 

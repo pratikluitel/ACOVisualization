@@ -47,7 +47,8 @@ class AntColony(object):
             all_paths = self.gen_all_paths(i)
             self.spread_pheronome(all_paths, self.n_best,
                                   shortest_path=shortest_path)
-            # time.sleep(4) # for your viewing pleasure
+            if(self.graph == False):
+                time.sleep(3)  # for your viewing pleasure
             shortest_path = min(all_paths, key=lambda x: x[1])
             self.pheromone = self.pheromone * self.decay
         if(self.graph):
