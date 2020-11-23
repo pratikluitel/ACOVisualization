@@ -1,3 +1,7 @@
+# Made by - Pratik Luitel & team
+# available at - https://github.com/pratikluitel/ACOVisualization
+# make a venv and install dependencies in requirements.txt before you proceed
+
 import numpy as np
 
 from ant_colony import AntColony
